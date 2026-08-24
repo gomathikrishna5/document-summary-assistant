@@ -1,0 +1,13 @@
+{
+  "name": "document-summary-assistant",
+  "version": "1.0.0",
+  "private": true,
+  "description": "AI-powered document summary assistant — upload PDFs or images and get instant AI summaries, key points, and improvement suggestions.",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix client",
+    "dev:server": "npm run dev --prefix server",
+    "dev:client": "npm run dev --prefix client",
+    "build:client": "npm run build --prefix client"
+  },
+  "license": "MIT"
+}
